@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ubiquiti/static/css/main.b1b9b545.css",
+    "main.js": "/ubiquiti/static/js/main.cd4ecc2f.js",
+    "static/media/list-active.svg": "/ubiquiti/static/media/list-active.0fe2308d71311d8e89af.svg",
+    "static/media/logo-hover.svg": "/ubiquiti/static/media/logo-hover.787b31032a1b4d857251258b12202287.svg",
+    "static/media/logo-active.svg": "/ubiquiti/static/media/logo-active.70f6eb680e8f7c0bfb867da6e87c60b0.svg",
+    "static/media/logo-default.svg": "/ubiquiti/static/media/logo-default.1dde797b5c117de347bae7d171abccec.svg",
+    "static/media/list-default.svg": "/ubiquiti/static/media/list-default.8e0207a7b6648dcd3b39.svg",
+    "static/media/grid-active.svg": "/ubiquiti/static/media/grid-active.0c0d8bff505b930aa467.svg",
+    "static/media/grid-default.svg": "/ubiquiti/static/media/grid-default.6baab28a55bb353e9c7c.svg",
+    "index.html": "/ubiquiti/index.html",
+    "static/media/search-icon.svg": "/ubiquiti/static/media/search-icon.8e69dbfd3abd9a881ee2.svg",
+    "static/media/close-icon.svg": "/ubiquiti/static/media/close-icon.7d34516c448c79e4963a.svg",
+    "static/media/back-icon.svg": "/ubiquiti/static/media/back-icon.bcfca25ee3a3a1b2be68.svg",
+    "main.b1b9b545.css.map": "/ubiquiti/static/css/main.b1b9b545.css.map",
+    "main.cd4ecc2f.js.map": "/ubiquiti/static/js/main.cd4ecc2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1b9b545.css",
+    "static/js/main.cd4ecc2f.js"
+  ]
+}
