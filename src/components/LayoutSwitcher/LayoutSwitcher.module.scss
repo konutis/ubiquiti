@@ -1,0 +1,30 @@
+.layoutSwitcher {
+  display: flex;
+  align-items: center;
+  margin: 0 7px;
+}
+
+.layoutButton {
+  border: 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  margin: 0 7px;
+}
+
+.layoutList {
+  background: url("../../img/list-default.svg");
+
+  &.layoutButtonActive {
+    background: url("../../img/list-active.svg");
+  }
+}
+
+.layoutGrid {
+  background: url("../../img/grid-default.svg");
+
+  &.layoutButtonActive {
+    background: url("../../img/grid-active.svg");
+  }
+}

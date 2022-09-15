@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: #F6F6F8;
+  border-bottom: 1px solid #EDEDF0;
+}
+
+.headerLink {
+  position: relative;
+
+  &:hover {
+    .headerLogoDefault {
+      opacity: 0;
+    }
+  }
+  &:active {
+    .headerLogoDefault,
+    .headerLogoHover {
+      opacity: 0;
+    }
+  }
+}
+
+.headerLogo {
+  width: 55px;
+  display: inline-block;
+  vertical-align: top;
+  transition: opacity .2s;
+}
+
+.headerLogoDefault {
+  position: relative;
+}
+
+.headerLogoHover,
+.headerLogoActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.headerTitle {
+  color: #838691;
+  font-size: 20px;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.headerDevName {
+  color: rgba(0, 0, 0, .65);
+  font-size: 14px;
+  margin: 0 25px 0 15px;
+}
