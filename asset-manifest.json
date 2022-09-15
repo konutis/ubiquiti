@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ubiquiti/static/css/main.b1b9b545.css",
+    "main.css": "/ubiquiti/static/css/main.918902f9.css",
     "main.js": "/ubiquiti/static/js/main.cd4ecc2f.js",
     "static/media/list-active.svg": "/ubiquiti/static/media/list-active.0fe2308d71311d8e89af.svg",
     "static/media/logo-hover.svg": "/ubiquiti/static/media/logo-hover.787b31032a1b4d857251258b12202287.svg",
@@ -13,11 +13,11 @@
     "static/media/search-icon.svg": "/ubiquiti/static/media/search-icon.8e69dbfd3abd9a881ee2.svg",
     "static/media/close-icon.svg": "/ubiquiti/static/media/close-icon.7d34516c448c79e4963a.svg",
     "static/media/back-icon.svg": "/ubiquiti/static/media/back-icon.bcfca25ee3a3a1b2be68.svg",
-    "main.b1b9b545.css.map": "/ubiquiti/static/css/main.b1b9b545.css.map",
+    "main.918902f9.css.map": "/ubiquiti/static/css/main.918902f9.css.map",
     "main.cd4ecc2f.js.map": "/ubiquiti/static/js/main.cd4ecc2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b9b545.css",
+    "static/css/main.918902f9.css",
     "static/js/main.cd4ecc2f.js"
   ]
 }
