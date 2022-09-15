@@ -1,5 +1,5 @@
 .tableContainer {
-  padding: 0 30px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -9,20 +9,24 @@
 
 .tableHeader {
   display: flex;
+  flex-wrap: wrap;
   padding: 15px 0;
-  margin-top: 30px;
+  margin-top: 15px;
   border-bottom: 1px solid #EDEDF0;
   align-items: baseline;
 }
 
 .tableHeaderCount {
-  flex-basis: 100px;
   color: #BDBDBD;
   font-size: 12px;
+  flex-basis: 100%;
+  margin-bottom: 10px;
+  margin-left: 55px;
 }
 
 .tableHeaderType {
-  flex-basis: 164px;
+  flex-basis: 130px;
+  margin-left: 55px;
   font-weight: 700;
   color: rgba(0, 0, 0, .65);
   font-size: 14px;
@@ -77,11 +81,12 @@
 }
 
 .tableItemIcon {
-  flex-basis: 100px;
+  flex-basis: 45px;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-shrink: 0;
+  margin-right: 10px;
 }
 
 .tableItemIconImg {
@@ -89,7 +94,7 @@
 }
 
 .tableItemType {
-  flex-basis: 164px;
+  flex-basis: 130px;
   font-size: 14px;
   color: rgba(0, 0, 0, .65);
   flex-shrink: 0;
@@ -107,18 +112,25 @@
   text-overflow: ellipsis;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .tableContainer {
     padding: 0 30px;
   }
 
   .tableHeader {
     padding: 15px;
+    margin-top: 30px;
   }
 
   .tableHeaderCount {
     flex-basis: 140px;
     text-align: center;
+    margin: 0;
+  }
+
+  .tableHeaderType {
+    margin: 0;
+    flex-basis: 164px;
   }
 
   .tableItem {
@@ -127,5 +139,10 @@
 
   .tableItemIcon {
     flex-basis: 140px;
+    margin: 0;
+  }
+
+  .tableItemType {
+    flex-basis: 164px;
   }
 }
